@@ -1,0 +1,68 @@
+.header {
+  background-color: black
+}
+
+span {
+  color: white;
+}
+
+.navbar {
+  margin-left: 100px;
+}
+
+.navlink {
+  border: 1px solid transparent;
+}
+
+.nav-link:hover,.navbar-brand-text:hover,.dropdown-item:hover {
+  background:
+    linear-gradient(to right,
+      rgb(100, 160, 200),
+      rgba(100, 200, 200, 1)),
+    linear-gradient(to right,
+      rgba(255, 0, 0, 1),
+      rgba(255, 0, 180, 1),
+      rgb(0, 100, 200));
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+
+} 
+
+.navbar-brand-text:link{
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.navbar-brand-text{
+  color:white;
+  font-size: 30px;
+  text-decoration: none;
+
+}
+
+
+nav,.dropdown-item{
+  font-size: 21px;
+}
+
+#dropdownMenuLink {
+  color : white;
+  font-size: 21px;
+}
+
+#navbarSupportedContent{
+   margin-left: 70px;
+}
+
+
+
+.navbar-brand img{
+  height: 50px;
+  width: 50px;
+
+}
+
+
